@@ -1,0 +1,70 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('/output/pexels-ylanite-koppens-796602.jpg'); 
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #343a40;
+}
+
+
+.container-fluid {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.jumbotron {
+    background-color: #343a40;
+}
+
+.team-heading {
+    padding: 20px;
+}
+
+.team-area {
+    flex-wrap: wrap;
+}
+
+.employee-card {
+    margin: 10px;
+    max-width: 300px;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+.card-title {
+    margin: 0;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.list-group-item {
+    padding: 5px;
+    border: none;
+    background-color: #f8f9fa;
+}
+
+.list-group-item a {
+    color: #007bff;
+}
+
+.list-group-item a:hover {
+    text-decoration: none;
+    color: #0056b3;
+}
